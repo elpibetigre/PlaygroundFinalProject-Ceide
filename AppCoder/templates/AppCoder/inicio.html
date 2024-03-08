@@ -1,0 +1,12 @@
+{% extends "AppCoder/base.html" %}
+
+{% block body %}
+<div class="text-center text-black">
+    <h1 class="mb-5"> Bienvenidos a mi blog!</h1>
+</div>
+    {% if mensaje %}
+    <p>
+        {{mensaje}}
+    </p>
+{% endif %}
+{% endblock body %}
